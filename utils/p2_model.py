@@ -21,3 +21,4 @@ class ViL(nn.Module):
         decoder_outputs = self.decoder(captions, images_encoded_linear)
 
         return decoder_outputs
+
